@@ -635,27 +635,3 @@ def format_comparison_table(results: list[dict]) -> str:
     return table
 
 
-
-# #  ✅ ✅ TEST (đặt ngoài toàn bộ function)
-# if __name__ == "__main__":
-
-#     print("Testing compare_models...\n")
-#     try:
-#         result = compare_models("Hãy kể về Việt Nam")
-#         print(result)
-#     except Exception as e:
-#         print("Skip compare_models (cần API key):", e)
-
-#     print("\nTesting batch_compare...\n")
-#     try:
-#         batch = batch_compare(["AI là gì?", "Việt Nam ở đâu?"])
-#         print(batch)
-
-#         print("\nTesting table format...\n")
-#         table = format_comparison_table(batch)
-#         print(table)
-
-#     except Exception as e:
-#         print("Skip batch/table (cần API key):", e)
-
-#     print("\nDone ✅")
